@@ -14,3 +14,6 @@ f(E) - Competition and Achieve
 
 모든 멤버가 역할의 틀을 넘나들며 개발 전반에 기여했습니다.<br />
 <hr />
+
+초기 UI 
+<img width="1048" alt="INGAME UI" src="https://user-images.githubusercontent.com/81793748/175230024-52dc3b48-2e44-4f93-ad0d-258ad66b832d.png">
