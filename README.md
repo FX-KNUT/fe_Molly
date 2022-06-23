@@ -8,7 +8,7 @@ f(E) - Competition and Achieve
 팀 리더: <strong>허강민</strong>, 총괄, <i>nicecarrot20@gmail.com</i><br />
 팀 멤버: <strong>김민기</strong>, 프론트엔드, 백엔드 <i>alsrl4769@naver.com</i><br />
 팀 멤버: <strong>김성은</strong>, 프론트엔드, 백엔드 <i>kse011010@gmail.com</i><br />
-팀 멤버: <strong>김서로</strong>, 프론트엔드, 백엔드 <i></i><br />
+팀 멤버: <strong>김서로</strong>, 프론트엔드, 백엔드 <i>vholls2@naver.com</i><br />
 팀 멤버: <strong>이소윤</strong>, 프론트엔드 <i>rachel2920@gmail.com</i><br />
 팀 멤버: <strong>장수인</strong>, 프론트엔드 <i>suin10100@gmail.com</i><br />
 
