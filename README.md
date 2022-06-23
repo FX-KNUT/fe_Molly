@@ -4,7 +4,7 @@ f(E) - Competition and Achieve
 #### 점수를 올려 랭킹에 이름을 등록해보세요.
 
 <hr />
-<strong>Team f(x), KNUT</strong>
+<strong>Team f(x), KNUT</strong><br />
 팀 리더: <strong>허강민</strong>, 총괄, <i>nicecarrot20@gmail.com</i><br />
 팀 멤버: <strong>김민기</strong>, 프론트엔드, 백엔드<i>alsrl4769@naver.com</i><br />
 팀 멤버: <strong>김서로</strong>, 프론트엔드, 백엔드<i></i><br />
