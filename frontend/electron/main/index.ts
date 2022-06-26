@@ -18,9 +18,7 @@ let win: BrowserWindow | null = null;
 // Here you can add more preload scripts
 const splash = join(__dirname, "../preload/splash.js");
 // 🚧 Use ['ENV_NAME'] to avoid vite:define plugin
-// const url = `http://${process.env['VITE_DEV_SERVER_HOST']}:${process.env['VITE_DEV_SERVER_PORT']}`
-// 개발을 할 때에는 localhost 3000을 쓰고 이후에는 다시 바꾸자
-const url = `http://127.0.0.1:7777/`;
+const url = `http://${process.env['VITE_DEV_SERVER_HOST']}:${process.env['VITE_DEV_SERVER_PORT']}`
 
 async function createWindow() {
   win = new BrowserWindow({
@@ -33,7 +31,7 @@ async function createWindow() {
   });
 
   if (app.isPackaged) {
-    win.loadFile(join(__dirname, "../../index.html"));
+    win.loadFile(join(__dirname, "index.html"));
   } else {
     win.loadURL(url);
     // win.webContents.openDevTools()
