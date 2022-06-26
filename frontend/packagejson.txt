@@ -1,0 +1,4 @@
+main은 일렉트론의 entry point
+  "main": "dist/electron/main/index.js",
+배포 후에는 dist에 들어갈 테니 일단 지금은 다른 걸로
+테스트를 위해서 다른 걸로 하장.
