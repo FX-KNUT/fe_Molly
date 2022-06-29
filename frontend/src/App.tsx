@@ -1,7 +1,9 @@
+import Main from "./components/Main";
+
 const App: React.FC = () => {
   return (
-    <div>
-      <div>히히 아무것도 없어요!</div>
+    <div className="App">
+      <Main></Main>
     </div>
   );
 };
