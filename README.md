@@ -17,3 +17,12 @@ f(E) - Competition and Achieve
 
 초기 UI 디자인
 <img width="1048" alt="INGAME UI" src="https://user-images.githubusercontent.com/81793748/175230024-52dc3b48-2e44-4f93-ad0d-258ad66b832d.png">
+
+[Server]
+yarn add express socket.io
+node index.js
+
+[Frontend]
+그냥 ADD했더니 모델을 찾을 수 없다는 오류가 나서
+yarn add -D @types/socket.io
+로 하니까 모듈을 찾을 수 있음
