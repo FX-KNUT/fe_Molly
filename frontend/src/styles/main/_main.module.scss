@@ -1,4 +1,18 @@
+@import "../variable.module";
+
 .main_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user_container {
+  display: flex;
+  justify-content: right;
+}
+
+.game_container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -6,4 +20,58 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+}
+
+.login_button {
+  display: flex;
+  margin-top: 4px;
+  background-color: white;
+  border: none;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &::after {
+    content: "|";
+    display: block;
+    margin: 0 6px;
+  }
+  font-size: 16px;
+}
+
+.setting_button {
+  background-color: white;
+  margin-top: 4px;
+  margin-right: 6px;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+  font-size: 16px;
+}
+
+.start_button {
+  width: 48vw;
+  height: 20vh;
+  border-radius: 20px;
+  font-size: 40px;
+  background-color: white;
+  &:hover {
+    background-color: lightgray;
+    border-color: lightgray;
+    cursor: pointer;
+  }
+}
+
+.howto_button {
+  width: 48vw;
+  height: 20vh;
+  border-radius: 20px;
+  font-size: 40px;
+  background-color: white;
+  &:hover {
+    background-color: lightgray;
+    border-color: lightgray;
+    cursor: pointer;
+  }
 }
