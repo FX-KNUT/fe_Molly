@@ -1,0 +1,60 @@
+.mole {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, auto));
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    place-items: space-between;
+    margin-left: 290px;
+    column-gap: 200px;
+}
+.timebar {
+    display: flex;
+    // margin: 100px;
+    margin-top: 50px;
+    margin-left: 225px;
+    justify-content: center;
+    width: 1000px;
+    height: 30px;
+    border: 2px solid black;
+}
+.border {
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.smf {
+    display: flex;
+    font-size: 50px;
+    float: right;
+    border: 5px solid black;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: 70px;
+    margin-right: 30px;
+}
+.itemBox {
+    display: flex;
+    box-sizing: border-box;
+    height: 400px;
+    width: 320px;
+    top: 30%;
+    border: 3px solid black;
+    float: right;
+    margin-right: 25px;
+    column-gap: 50px;
+    overflow-wrap: break-word;
+}
+.items {
+    display: flex;
+    justify-content: space-around;
+    
+    // div 줄바꿈 안함!!
+}
