@@ -1,7 +1,12 @@
 import styles from "../styles/_gameboard.module.scss";
+import Resolution from "./resolution1366";
 const Gameboard = () => {
+  function click() {
+    // <Resolution />;
+  }
   return (
     <div>
+      <button onClick={click}>1366x756</button>
       <div className={styles.timebar}>time</div>
       <div className={styles.smf}>smf</div>
       <div className={styles.mole}>
