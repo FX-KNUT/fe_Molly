@@ -19,8 +19,10 @@ f(E) - Competition and Achieve
 <img width="1048" alt="INGAME UI" src="https://user-images.githubusercontent.com/81793748/175230024-52dc3b48-2e44-4f93-ad0d-258ad66b832d.png">
 
 [Server]
+환경설정
 yarn add express socket.io
-node index.js
+
+yarn server 하면 실행되도록 script 변경함
 
 [Frontend]
 그냥 ADD했더니 모델을 찾을 수 없다는 오류가 나서
